@@ -1,1 +1,190 @@
+{
+  "ver": "Factions_9e_01",
+  "name": "Faction Specific",
+  "factions": [
 
+	{ "faction": "SPACE MARINES",
+      "name": "Space Marines",
+      "categories": [
+        {
+          "name": "Purge the Enemy",
+          "objectives": [
+            {
+              "id": "EW.02.01.01",
+              "name": "Codex Warfare",
+              "description": "[i]End Game Objective[/i]\nScore victory points as follows:\n- Score 1 victory point at the end of the battle (to a maximum of 5 victory points) for each enemy unit that was destroyed as the result of an attack made with a Heavy or Grenade weapon by an ADEPTUS ASTARTES unit from your army while the Devastator Doctrine was active for your army.\n- Score 1 victory point at the end of the battle (to a maximum of 5 victory points) for each enemy unit that was destroyed as the result of an attack made with a Rapid Fire or Assault weapon by an ADEPTUS ASTARTES unit from your army while the Tactical Doctrine was active for your army.\n- Score 1 victory point at the end of the battle (to a maximum of 5 victory points) for each enemy unit that was destroyed as the result of an attack made with a Pistol or Melee weapon by an ADEPTUS ASTARTES unit from your army while the Assault Doctrine was active for your army."
+            }
+          ]
+        },
+		{
+          "name": "Battlefield Supremacy",
+          "objectives": [
+            {
+              "id": "EW.02.02.01",
+              "name": "Shock Tactics",
+              "description": "[i]Progressive Objective[/i]\nScore 3 victory points at the end of the battle round if you control one or more objective markers that were controlled by your opponent at the start of the battle round, and an ADEPTUS ASTARTES unit from your army is within range of that objective marker."
+            }
+          ]
+        },
+        {
+          "name": "No Mercy, No Respite",
+          "objectives": [
+            {
+              "id": "EW.02.03.01",
+              "name": "Oath of Moment",
+              "description": "[i]Progressive Objective[/i]\nScore victory points at the end of each battle round for achieving the following three Oaths:\n- Oath of Valour: Score 1 victory point if any CHARACTER, VEHICLE or MONSTER unit was destroyed by an ADEPTUS ASTARTES unit from your army during that battle round.\n- Oath of Honour: Score 1 victory point at the end of the battle round so long as no ADEPTUS ASTARTES units from your army failed a Morale test, and provided no ADEPTUS ASTARTES units from your army Fell Back during that battle round.\n- Oath of Duty: Score 2 victory points at the end of the battle round if an ADEPTUS ASTARTES unit from your army is wholly within 6\" of the centre of the battlefield."
+            }
+          ]
+        } 
+      ]
+    },
+	{ "faction": "NECRONS",
+      "name": "Necrons",
+      "categories": [
+        {
+          "name": "Battlefield Supremacy",
+          "objectives": [
+            {
+              "id": "EW.03.01.01",
+              "name": "Purge the Vermin",
+              "description": "[i]Progressive Objective[/i]\nScore 2 victory points at the end of your turn for each table quarter that does not have any enemy units (excluding AIRCRAFT units) wholly within it. This objective cannot be scored in the first battle round."
+			  }
+          ]
+        },
+		{
+          "name": "Battlefield Supremacy",
+          "objectives": [
+            {
+              "id": "EW.03.02.01",
+              "name": "The Treasure of Aeons",
+              "description": "[i]Progressive Objective[/i]\nIf you selected this secondary objective, then after both sides have finished deploying, your opponent selects 3 objective markers on the battlefield. Score a number of victory points at the end of your turn if you control one or more of those objective markers, as listed:\n- 1 marker, 2 VP\n- 2 markers, 3 VP\n- 3 markers, 5 VP"
+			  }
+          ]
+        },
+        {
+          "name": "No Mercy, No Respite",
+          "objectives": [
+            {
+              "id": "EW.03.03.01",
+              "name": "Code of Combat",
+              "description": "[i]End Game Objective[/i]\nScore 3 victory points at the end of the battle for each enemy unit that was destroyed by a NECRONS NOBLE unit from your army."
+			  }
+          ]
+        },
+	{
+          "name": "Shadow Operations",
+          "objectives": [
+            {
+              "id": "EW.03.04.01",
+              "name": "Ancient Machineries",
+              "description": "[i]Progressive Objective[/i]\nIf you selected this secondary objective, then after both sides have finished deploying, starting with your opponent, the players alternate selecting objective markers that are not within any player’s deployment zone to be Ancient Machinery objective markers, until three objective markers have been selected (if there are only one or two such objective markers, then only those objective markers are Ancient Machinery objective markers). Score 3 victory points each time a NECRONS CORE or NECRONS CANOPTEK units from your army completes the Awaken Ancient Machinery action.",
+			  "actions": [
+                {
+                  "id": "EW.03.04.01a",
+                  "name": "Awaken Ancient Machinery (Action)",
+                  "description": "[i]Action[/i]\nAt the end of your Movement phase, one or more NECRONS CORE or NECRONS CANOPTEK units from your army can start to perform this action. Each unit from your army that starts to perform this action must be in range of a different Ancient Machinery objective marker. A unit cannot start this action while there are any enemy units (excluding AIRCRAFT) in range of the same objective marker. Ihe action is completed at the end of your next Command phase, provided the unit attempting that action is still within range of that Ancient Machinery objective marker."
+				  }
+              ]
+			}
+          ]
+        }		
+      ]
+    },
+	{ "faction": "DEATHWATCH",
+      "name": "Deathwatch",
+      "categories": [
+        {
+          "name": "Battlefield Supremacy",
+          "objectives": [
+            {
+              "id": "EW.04.01.01",
+              "name": "The Long Vigil",
+              "description": "[i]Progressive Objective[/i]\nScore 5 victory points at the start of your Command phase if there are no enemy units (excluding AIRCRAFT) within 6" of your deployment zone and there is at least one DEATHWATCH unit (excluding AIRCRAFT) from your army wholly within your deployment zone. You cannot score this secondary objective during the first battle round."			  }
+          ]
+        },
+		{
+          "name": "Purge the Enemy",
+          "objectives": [
+            {
+              "id": "EW.04.02.01",
+              "name": "Cull Order",
+              "description": "[i]End Game Objective[/i]\nIf you selected this secondary objective, then after both sides have finished deploying, starting with your opponent, both players alternate selecting Battlefield Roles (HQ, Troops, etc.) from the units in their opponents army until three different Battlefield Roles have been selected. If their opponent's army does not include units with three Battlefield Roles, select as many as possible.\nAt the end of the battle, for each Battlefield Role that was selected, score 5 victory points if every enemy unit in your opponents army with that Battlefield Role has been destroyed."
+			  }
+          ]
+        },
+        {
+          "name": "No Mercy, No Respite",
+          "objectives": [
+            {
+              "id": "EW.04.03.01",
+              "name": "Suffer not the Alien",
+              "description": "[i]End Game Objective[/i]\nScore 1 victory point at the end of the battle for each enemy TYRANIDS, AELDARI, ORK, NECRONS and T’AU EMPIRE unit destroyed by a DEATHWATCH unit from your army during the battle."
+			  }
+          ]
+        },
+	{
+          "name": "Shadow Operations",
+          "objectives": [
+            {
+              "id": "EW.04.04.01",
+              "name": "Cripple Stronghold",
+              "description": "[i]Progressive Objective[/i]\nIf you selected this secondary objective, then after both sides have finished deploying, your opponent must select one objective marker on the battlefield to be the location of their Stronghold objective marker (if any objective markers are wholly within your opponents deployment zone, one of these must be selected to be the Stronghold objective marker).\nScore 6 victory points each time a unit from your army completes the Cripple Stronghold action.",
+			  "actions": [
+                {
+                  "id": "EW.04.04.01a",
+                  "name": "Cripple Stronghold (Action)",
+                  "description": "[i]Action[/i]\nOne DEATHWATCH INFANTRY unit from your army can start to perform this action at the end of your Movement phase if it is within range of the Stronghold objective marker and no enemy units (excluding AIRCRAFT) are within range of that objective marker. This action is completed at the start of your next Command phase so long as the unit performing the action is still within range of the same objective marker."
+				  }
+              ]
+			}
+          ]
+        }		
+      ]
+    },
+	{ "faction": "SPACE WOLVES",
+      "name": "Space Wolves",
+      "categories": [
+        {
+          "name": "Purge the Enemy",
+          "objectives": [
+            {
+              "id": "EW.05.01.01",
+              "name": "Glory Kills",
+              "description": "[i]Progressive Objective[/i]\nYou score victory points as follows:\n- Score 2 victory points if any CHARACTER units were destroyed by a SPACE WOLVES unit from your army during this battle round. If no CHARACTER units were destroyed, but a CHARACTER unit suffered 3 or more wounds as the result of attacks made by SPACE WOLVES units from your army, score 1 victory point instead.\n- Score 3 victory points if any MONSTER units were destroyed by a SPACE WOLVES unit from your army during this battle round. If no MONSTER units were destroyed, but a MONSTER unit suffered 3 or more wounds as the result of attacks made by SPACE WOLVES units from your army, score 1 victory point instead.\nA CHARACTER MONSTER unit cannot count towards both parts of this objective. You must select whether to treat that unit as a CHARACTER or a MONSTER for the purpose of this objective."			
+			}
+          ]
+        },
+		{
+          "name": "Purge the Enemy",
+          "objectives": [
+            {
+              "id": "EW.05.02.01",
+              "name": "Heroic Challenge",
+              "description": "[i]End Game Objective[/i]\nAt the start of the first Command phase, you must select one SPACE WOLVES CHARACTER model from your army to issue the challenge and your opponent must select one CHARACTER model from their army to accept the challenge. If either player does not have a CHARACTER model, they must select their WARLORD.\nScore 5 victory points at the end of the battle for each of the following conditions that have been achieved:\n- The model that accepted the challenge was destroyed.\n- The model that accepted the challenge was destroyed as the result of a melee attack.\n- The model that accepted the challenge was destroyed as the result of a melee attack made by the model that issued the challenge."}
+          ]
+        },
+        {
+          "name": "No Mercy, No Respite",
+          "objectives": [
+            {
+              "id": "EW.05.03.01",
+              "name": "A Mighty Saga",
+              "description": "[i]Progressive Objective[/i]\nIf you select this objective, you score 2 victory points at the end of each battle round for each of the following achieved by your SPACE WOLVES WARLORD, for a maximum of 5 victory points:\n-An enemy MONSTER or VEHICLE unit loses any wounds as the result of a melee attack made by this Warlord.\n- An enemy MONSTER or VEHICLE unit is destroyed as the result of a melee attack made by this Warlord.\n- An enemy CHARACTER is destroyed as the result of a melee attack made by this Warlord.\n- 5 or more models were destroyed as the result of attacks made by this Warlord.\n- At the start of your Command phase, this WARLORD is within range of an objective marker that is wholly within your opponent’s deployment zone."
+			  }
+          ]
+        },
+		{
+          "name": "No Mercy, No Respite",
+          "objectives": [
+            {
+              "id": "EW.05.04.01",
+              "name": "Warrior Pride",
+              "description": "[i]Progressive Objective[/i]\nScore 3 victory points at the end of your turn if two or more SPACE WOLVES units from your army are within Engagement Range of any enemy units or have completed a charge move this turn."
+			  }
+          ]
+        }
+		
+      ]
+    }
+  ]
+}
