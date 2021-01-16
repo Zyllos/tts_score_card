@@ -41,7 +41,7 @@
 						{
 							"id": "GT20.01.02.03",
 							"name": "While We Stand, We Fight",
-							"description": "[i]End Game Objective[/i]\nIf you select this objective, then before the battle you must identify which three models from your army (excluding models with the fortification battlefield role) have the highest points value, and make a note of them on your army roster (if two or more models are tied, you can choose between them). If your army has three or fewer models, then you instead identify all the units in your army. A model’s points cost includes the points of all weapons and wargear it is equipped with. You score 5 victory points for each of the models that are on the battlefield at the end of the battle."
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, then before the battle you must identify which three units from your army (excluding models with the Fortifications Battlefield Role) have the highest points value, and make a note of them on your army roster (if two or more units are tied, you can choose between them). If your army has three or fewer units, then you instead identify all the units in your army. A unit’s points cost includes the points of all weapons and wargear it is equipped with. You score 5 victory points for each of these units that are on the battlefield at the end of the battle. If a unit splits into several smaller units during the battle, all of those separate units (excluding Dʀᴏɴᴇs units) must be destroyed for the original unit to count as being destroyed for the purposes of this secondary objective."
 						},
 						{
 							"id": "GT20.01.02.04",
@@ -61,7 +61,7 @@
 						{
 							"id": "GT20.01.03.02",
 							"name": "Bring it Down",
-							"description": "[i]End Game Objective[/i]\nScore 2 victory points at the end of the battle for each enemy ᴍᴏɴsᴛᴇʀ or ᴠᴇʜɪᴄʟᴇ model with a Wounds characteristic of 10 or less that is destroyed, and 3 victory points for each enemy ᴍᴏɴsᴛᴇʀ or ᴠᴇʜɪᴄʟᴇ model with a Wounds characteristic of 11 or more that is destroyed."
+							"description": "[i]End Game Objective[/i]\nScore 1 victory point at the end of the battle for each enemy Mᴏɴsᴛᴇʀ or Vᴇʜɪᴄʟᴇ model with a Wounds characteristic of 10 or less that is destroyed, 2 victory points for each enemy Mᴏɴsᴛᴇʀ or Vᴇʜɪᴄʟᴇ model with a Wounds characteristic of between 11-19 that is destroyed, and 3 victory points for each enemy Mᴏɴsᴛᴇʀ or Vᴇʜɪᴄʟᴇ model with a Wounds characteristic of 20 or more that is destroyed."
 						},
 						{
 							"id": "GT20.01.03.03",
@@ -106,7 +106,7 @@
 						{
 							"id": "GT20.01.05.01",
 							"name": "Abhor the Witch",
-							"description": "[i]End Game Objective[/i]\nYou cannot select this secondary objective if your army includes any ᴘsʏᴋᴇʀ units. Score 5 victory points at the end of the battle for each enemy ᴘsʏᴋᴇʀ ᴄʜᴀʀᴀᴄᴛᴇʀ that is destroyed, and 3 victory points for every other enemy ᴘsʏᴋᴇʀ unit that is destroyed."
+							"description": "[i]End Game Objective[/i]\nYou cannot select this secondary objective if your army includes any Psʏᴋᴇʀ units. Score 3 victory points at the end of the battle for each enemy Psʏᴋᴇʀ Cʜᴀʀᴀᴄᴛᴇʀ unit that is destroyed, and 2 victory points for every other enemy Psʏᴋᴇʀ unit that is destroyed."
 						},
 						{
 							"id": "GT20.01.05.02",
