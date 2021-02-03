@@ -46,7 +46,7 @@
             {
               "id": "EW.01.02.03",
               "name": "While We Stand, We Fight",
-              "description": "[i]End Game Objective[/i]\nIf you select this objective, then before the battle you must identify which three models from your army (excluding models with the fortification battlefield role) have the highest points value, and make a note of them on your army roster (if two or more models are tied, you can choose between them). If your army has three or fewer models, then you instead identify all the units in your army. A model’s points cost includes the points of all weapons and wargear it is equipped with. You score 5 victory points for each of the models that are on the battlefield at the end of the battle."
+              "description": "[i]End Game Objective[/i]\nIf you select this objective, then before the battle you must identify which three units from your army (excluding models with the Fortifications Battlefield Role) have the highest points value, and make a note of them on your army roster (if two or more units are tied, you can choose between them). If your army has three or fewer units, then you instead identify all the units in your army. A unit’s points cost includes the points of all weapons and wargear it is equipped with. You score 5 victory points for each of these units that are on the battlefield at the end of the battle. If a unit splits into several smaller units during the battle, all of those separate units (excluding Dʀᴏɴᴇs units) must be destroyed for the original unit to count as being destroyed for the purposes of this secondary objective."
             },
             {
               "id": "EW.01.02.04",
@@ -155,7 +155,7 @@
           "objectives": [
             {
               "id": "EW.00.04.01",
-              "name": "Lines od Demarcation",
+              "name": "Lines of Demarcation",
               "description": "[i]Progressive Objective[/i]\nAt the end of your turn, you score 4 victory points if you control both objective markers labelled A, or 2 victory points if you control both objective markers labelled B."
             }
           ]
